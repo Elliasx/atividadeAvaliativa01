@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    border: 2px solid black;
+    /* margin: 0 20rem; */
+}
+.header{
+    /* border: 2px solid green; */
+    padding: 5rem;
+}
+.titulos{
+    text-align: center;
+    margin-bottom: 4.625rem;
+}
+.titulo-fotografo{
+    /* border: 2px solid yellow; */
+    margin-bottom: 2rem;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    text-transform: uppercase;
+}
+.titulo-nome{
+    /* border: 2px solid darkblue; */
+
+    letter-spacing: 0.295rem;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+}
+.navbar{
+    border: 1px solid black;
+
+    margin: 0 40rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 24px;
+    gap: 54px;
+}
+.navbar-link{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    border: 2px solid purple;
+}
+.main section{
+    border: 2px solid fuchsia;
+}
+.foto1{
+    height: 340px;
+    width: 815px;
+}
+.foto2{
+    left: 80px;
+    top: 7px;
+    height: 800px;
+    width: 426px;
+
+    margin-left: 80rem;
+}
+.foto3{
+    height: 340px;
+    width: 402px;
+}
+.foto4{
+    height: 340px;
+    width: 402px;
+}
